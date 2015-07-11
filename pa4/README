@@ -1,0 +1,34 @@
+Name: Kelly Scanlon
+User: kpscanlo
+Assignment: pa4
+
+Files:
+List.c
+This is a doubly linked list data structure that includes a "cursor"
+for iteration through the list. It is used to store integer data.
+
+List.h
+Header file for List ADT
+
+Graph.c
+This is a Graph ADT used to store Graphs as well as search through
+them using a Breath First Search.
+
+Graph.h
+Header file for Graph ADT
+
+GraphTest.c
+This is a way to test the Graph ADT in isolation.
+
+FindPath.c
+This is the main class for the program which implements both the 
+Graph ADT and the List ADT. It takes in two arguments: input file
+and the output file. It reads in the first section of the input file
+to build a graph. The next section of the input file is pairs of 
+integers in the range 1 to n which specify a pair of vertices in 
+the graph. Using the results from the Breath First Search (BFS), it
+outputs th distance of the vertices and the shortest path from the 
+
+Makefile
+This file creates an executable jar file called FindPath.
+

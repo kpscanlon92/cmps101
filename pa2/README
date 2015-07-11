@@ -1,0 +1,25 @@
+Name: Kelly Scanlon
+User: kpscanlo
+Assignment: pa2
+
+Files:
+List.c
+This is a doubly linked list data structure that includes a "cursor"
+for iteration through the list. This is used to store integers that
+are the indices of the array of lines of the file.
+
+List.h
+This is the header file for the List ADT.
+
+ListClient.c (unaltered)
+This is a way to test List.c and List.h.
+
+Lex.c
+This is the main program that reads in a file, sorts the indices of
+the lines into alphabetical order, and outputs the lines into a file
+in alphabetical order.
+
+Makefile
+This file creates an executable file called Lex.
+
+

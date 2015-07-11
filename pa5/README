@@ -1,0 +1,36 @@
+Name: Kelly Scanlon
+User: kpscanlo
+Assignment: pa5
+
+Files:
+List.c
+This is a doubly linked list data structure that includes a "cursor"
+for iteration through the list. It is used to store integer data.
+
+List.h
+Header file for List ADT
+
+Graph.c
+This is a Graph ADT used to store Graphs as well as search through
+them using a Depth First Search. I built off of my Graph.c from pa4,
+but only used the function list given for pa5.
+
+Graph.h
+Header file for Graph ADT
+
+GraphTest.c
+This is a way to test the Graph ADT in isolation.
+
+FindComponents.c
+This is the main program that does the following:
++Read the input file.
++Assemble a graph object G using newGraph() and addArc()
++Print the adjacency list representation of G to the output file.
++Run DFS on G and G transpose, processing the vertices in the 
+second call by decreasing finish times from the first call.
++Determine the strong components of G.
++Print the strong components of G to the output file in 
+
+Makefile
+This file creates an executable jar file called FindComponents.
+

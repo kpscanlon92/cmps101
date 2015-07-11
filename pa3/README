@@ -1,0 +1,31 @@
+Name: Kelly Scanlon
+User: kpscanlo
+Assignment: pa3
+
+Files:
+List.java
+This is a doubly linked list data structure that includes a "cursor"
+for iteration through the list. It is used to store objects, which in 
+this case are Entries in a Matrix of the form (col, data).
+
+ListTest.java 
+This is a way to test the List ADT in isolation.
+
+Matrix.java
+A matrix ADT that represents the "sparse" entries using a List ADT to 
+contain each row, and the list nodes contain the entries (col, data).
+
+MatrixTest.java
+This is a way to test the Matrix ADT in isolation.
+
+Sparse.java
+This is the main program that implements Matrix.java and List.java.
+It takes in two arguements for the input file and the output file.
+It reads through the input file which contains the information for 
+two matrices, A and B. It then outputs to the file A, B, (1.5)A, 
+A+B, A+A, B-A, A-A, transpose(A), AB, BB.
+
+Makefile
+This file creates an executable jar file called Sparse.
+
+

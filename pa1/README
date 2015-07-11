@@ -1,0 +1,22 @@
+Name: Kelly Scanlon
+User: kpscanlo
+Assignment: pa1
+
+Files:
+List.java
+This is a doubly linked list data structure that includes a "cursor"
+for iteration through the list. This is used to store integers that
+are the indices of the array of lines of the file.
+
+ListClint.java (unaltered)
+This is a way to test List.java.
+
+Lex.java
+This is the main program that reads in a file, sorts the indices of
+the lines into alphabetical order, and outputs the lines into a file
+in alphabetical order.
+
+Makefile
+This file creates an executable jar file called Lex.
+
+
